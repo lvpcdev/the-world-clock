@@ -1,16 +1,12 @@
-# Compiled class file
+# --- 1. Compilação, Logs e Pacotes ---
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
+hs_err_pid*
+replay_pid*
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Pacotes
 *.jar
 *.war
 *.nar
@@ -19,6 +15,28 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# --- 2. Build Tools (Maven/Gradle) ---
+/target/
+/build/
+
+# --- 3. IDEs ---
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+
+# --- 4. Sistema Operacional ---
+.DS_Store
+Thumbs.db
